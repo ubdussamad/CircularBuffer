@@ -2,6 +2,10 @@
 #include <iostream>
 #include <vector>
 #include "CircularBuffer.h"
+
+// Copying code from the implimentation file (.cpp) itself might seem ridiculous but it's needed
+// due to complicated template class intantialization reasons.
+// Read: https://www.parashift.com/c++-faq-lite/init-lists.html
 #include "CircularBuffer.cpp"
 
 
